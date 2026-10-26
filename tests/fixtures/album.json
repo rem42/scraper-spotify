@@ -1,0 +1,115 @@
+{
+  "album_type": "album",
+  "total_tracks": 20,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/2cWBwpqMsDJC1ZUwz813lo"
+  },
+  "href": "https://api.spotify.com/v1/albums/2cWBwpqMsDJC1ZUwz813lo",
+  "id": "2cWBwpqMsDJC1ZUwz813lo",
+  "images": [
+    {
+      "url": "https://i.scdn.co/image/ab67616d0000b2736ca5c90113b30c3c43ffb8f4",
+      "height": 640,
+      "width": 640
+    }
+  ],
+  "name": "The Eminem Show",
+  "release_date": "2002-05-26",
+  "release_date_precision": "day",
+  "type": "album",
+  "uri": "spotify:album:2cWBwpqMsDJC1ZUwz813lo",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+      },
+      "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+      "id": "7dGJo4pcD2V6oG8kP0tJRR",
+      "name": "Eminem",
+      "type": "artist",
+      "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+    }
+  ],
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/2cWBwpqMsDJC1ZUwz813lo/tracks?offset=0&limit=50&market=FR",
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 2,
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "type": "artist",
+            "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 39013,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1bSpwPhAxZwlR2enJJsv7U"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1bSpwPhAxZwlR2enJJsv7U",
+        "id": "1bSpwPhAxZwlR2enJJsv7U",
+        "is_playable": true,
+        "name": "Curtains Up - Skit",
+        "preview_url": null,
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1bSpwPhAxZwlR2enJJsv7U",
+        "is_local": false
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "type": "artist",
+            "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 290320,
+        "explicit": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2mV4t4ZQ1bWspCkdzY7u66"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2mV4t4ZQ1bWspCkdzY7u66",
+        "id": "2mV4t4ZQ1bWspCkdzY7u66",
+        "is_playable": true,
+        "name": "White America",
+        "preview_url": null,
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:2mV4t4ZQ1bWspCkdzY7u66",
+        "is_local": false
+      }
+    ]
+  },
+  "copyrights": [
+    {
+      "text": "© 2002 Aftermath Records",
+      "type": "C"
+    },
+    {
+      "text": "℗ 2002 Aftermath Records",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00606949329020"
+  },
+  "genres": []
+}

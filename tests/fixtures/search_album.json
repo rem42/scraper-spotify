@@ -1,0 +1,88 @@
+{
+  "albums": {
+    "href": "https://api.spotify.com/v1/search?offset=0&limit=2&query=eminem&type=album&market=FR",
+    "limit": 2,
+    "next": "https://api.spotify.com/v1/search?offset=2&limit=2&query=eminem&type=album&market=FR",
+    "offset": 0,
+    "previous": null,
+    "total": 800,
+    "items": [
+      {
+        "album_type": "album",
+        "total_tracks": 20,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2cWBwpqMsDJC1ZUwz813lo"
+        },
+        "href": "https://api.spotify.com/v1/albums/2cWBwpqMsDJC1ZUwz813lo",
+        "id": "2cWBwpqMsDJC1ZUwz813lo",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2736ca5c90113b30c3c43ffb8f4",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e026ca5c90113b30c3c43ffb8f4",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048516ca5c90113b30c3c43ffb8f4",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "The Eminem Show",
+        "release_date": "2002-05-26",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2cWBwpqMsDJC1ZUwz813lo",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "type": "artist",
+            "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+          }
+        ]
+      },
+      {
+        "album_type": "compilation",
+        "total_tracks": 19,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/71xFWYFtiHC8eP99QB30AA"
+        },
+        "href": "https://api.spotify.com/v1/albums/71xFWYFtiHC8eP99QB30AA",
+        "id": "71xFWYFtiHC8eP99QB30AA",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273e3d0b9f4d6a8f7c1a1d0b8a2",
+            "height": 640,
+            "width": 640
+          }
+        ],
+        "name": "Curtain Call: The Hits",
+        "release_date": "2005",
+        "release_date_precision": "year",
+        "type": "album",
+        "uri": "spotify:album:71xFWYFtiHC8eP99QB30AA",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "type": "artist",
+            "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+          }
+        ]
+      }
+    ]
+  }
+}
