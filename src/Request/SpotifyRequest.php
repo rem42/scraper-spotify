@@ -37,7 +37,7 @@ abstract class SpotifyRequest extends ScraperRequest implements RequestAuthBeare
     /**
      * ISO 3166-1 alpha-2 country code: without it, content is considered unavailable for a client credentials token.
      */
-    public function setMarket(string $market): self
+    public function setMarket(string $market): static
     {
         $this->parameters['market'] = $market;
 
